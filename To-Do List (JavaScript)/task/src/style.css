@@ -1,0 +1,44 @@
+.delete-btn {
+    background-color: rgba(255, 0, 0, 0.15);
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 100%;
+}
+
+.task {
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+    opacity: 70%;
+}
+
+input:checked + span {
+    text-decoration: line-through;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15vh;
+
+}
+
+.done {
+    font-size:small;
+    color: darkgreen;
+}
